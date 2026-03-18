@@ -116,7 +116,7 @@ const Skills = () => {
               <CardContent className="p-8 text-center relative z-10">
                 <div className="mb-6 relative inline-block">
                   <div className="absolute inset-0 bg-gradient-primary opacity-20 blur-xl rounded-full group-hover:opacity-40 transition-opacity duration-300" />
-                  <skill.icon size={56} className={`relative ${skill.color} group-hover:scale-110 transition-transform duration-300`} />
+                  <skill.icon size={56} className={`relative ${skill.color} drop-shadow-[0_0_12px_currentColor] group-hover:drop-shadow-[0_0_20px_currentColor] group-hover:scale-110 transition-all duration-300`} />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-foreground group-hover:text-white transition-colors duration-300">{skill.title}</h3>
                 <p className="text-sm text-pink-100 group-hover:text-white/80 leading-relaxed transition-colors duration-300">{skill.description}</p>

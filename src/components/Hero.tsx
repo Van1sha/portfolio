@@ -117,7 +117,7 @@ const Hero = () => {
                 className="p-4 rounded-full premium-card hover:shadow-intense transition-all duration-500 hover:scale-125 group"
                 aria-label={label}
               >
-                <Icon size={28} className="text-primary group-hover:text-white transition-colors duration-300" />
+                <Icon size={28} className="text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.5)] group-hover:drop-shadow-[0_0_15px_rgba(255,255,255,0.8)] transition-all duration-300" />
               </a>
             ))}
           </div>
